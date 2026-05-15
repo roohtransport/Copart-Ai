@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Value Analyzer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Car Value Analyzer</h1>
+
+    <input id="vin" placeholder="Enter VIN number" />
+
+    <input type="file" id="images" multiple accept="image/*" />
+
+    <button onclick="analyzeCar()">Analyze Vehicle</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
